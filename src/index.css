@@ -16,3 +16,20 @@ body {
 	color: #DFDCE3
 	
 }
+.markdearman1 {
+	/* 
+	#4ABDAC
+	#FC4A1A
+	#F7B733
+	#DFDCE3 */
+
+
+	background-color: #FC4A1A;
+	color: #F7B733
+	
+}
+
+.inherited{
+	background-color: inherit;
+	color: inherit;
+}

@@ -10,15 +10,22 @@ class App extends React.Component {
     this.setState({
       theme: 'markdearman',
     });
-  };
+	}
+	
+  public changeMark1: any = () => {
+    this.setState({
+      theme: 'markdearman1',
+    });
+  }
   public render() {
     return (
-      <div className={this.state.theme !== '' ? 'markdearman' : 'App-Header'}>
+      <div className={this.state.theme}>
         <header>
           <h1 className="App-title">Welcome to ROMA</h1>
         </header>
 
-        <button onClick={this.changeMark}>Dean</button>
+        <button className="inherited" onClick={this.changeMark}>Dean</button>
+        <button className="inherited" onClick={this.changeMark1}>Dean</button>
       </div>
     );
   }
