@@ -1,19 +1,24 @@
 import * as React from 'react';
 import './App.css';
 
-import logo from './logo.svg';
-
 class App extends React.Component {
+  public state = {
+    theme: '',
+  };
+
+  public changeMark: any = () => {
+    this.setState({
+      theme: 'markdearman',
+    });
+  };
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div className={this.state.theme !== '' ? 'markdearman' : 'App-Header'}>
+        <header>
           <h1 className="App-title">Welcome to ROMA</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+
+        <button onClick={this.changeMark}>Dean</button>
       </div>
     );
   }

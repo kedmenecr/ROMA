@@ -2,6 +2,8 @@
 ## ROMA starter pack
 
 - [What is this?](#what-is-this)
+- [Color schemes](#color-schemes)
+	- [MarkDearman](#npm-start)
 - [Can I contribute?](#can-i-contribute)
 - [Developers](#developers)
 - [Horay!](#horay)
@@ -16,6 +18,14 @@
 
 * ROMA is a create-react-app starter pack with predefined components.
 * As the development is going further we will update it and link components here directly
+
+## Color schemes
+
+### MarkDearman
+	#4ABDAC
+	#FC4A1A
+	#F7B733
+	#DFDCE3
 
 
 ## Can I contribute?
